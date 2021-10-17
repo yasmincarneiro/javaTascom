@@ -21,7 +21,7 @@ public class Desafio_aula4{
                 if (matriz[vetor][indice] % primos == 0) ++counter;
             }
                 if (counter == 2){
-                    System.out.println(matriz[vetor][indice] + "é primo.");
+                    System.out.println(matriz[vetor][indice] + " eh primo.");
                 }
 
             }
@@ -32,7 +32,7 @@ public class Desafio_aula4{
         for (int vetor = 0; vetor < matriz.length; vetor++){
             for (int indice = 0; indice < matriz[vetor].length; indice++){
                 if (matriz[vetor][indice]%2 == 0){
-                    System.out.println(matriz[vetor][indice] + "é par");
+                    System.out.println(matriz[vetor][indice] + " eh par");
                 }
             }
 
@@ -41,7 +41,7 @@ public class Desafio_aula4{
         for (int vetor = 0; vetor < matriz.length; vetor++){
             for (int indice = 0; indice < matriz[vetor].length; indice++){
                 if (matriz[vetor][indice]%2 != 0){ // != : diferente
-                    System.out.println(matriz[vetor][indice] + "é impar");
+                    System.out.println(matriz[vetor][indice] + " eh impar");
                 }
             }
         }
